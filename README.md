@@ -4,7 +4,7 @@ This project utilizes the AgileX SCOUT robot as the control chassis. Measuring 6
 
 For global positioning to obtain orientation data, the robot incorporates a UBLOX M8030-72CH Global Positioning System (GPS) and a WTGAHRS1 Inertial Measurement Unit (IMU). The camera system utilizes three Raspberry Pi Camera V2 RGB cameras,mounted 0.6 meters above the geometric center of the robot chassis at a downward angle of approximately 12 degrees.
 
-The MobileNetV4 network serves as the skeleton for the boundary line model.
-Boundary line information from the three cameras is processed through an attention network.
-MapNet employs the A* algorithm to generate a global planning map, which is then cropped to produce a robot-centered local planning map.
-The decision model is based on the PPO algorithm.
+- The MobileNetV4 network serves as the skeleton for the boundary line model.
+- Boundary line information from the three cameras is processed through an attention network.
+- MapNet employs the A* algorithm to generate a global planning map, which is then cropped to produce a robot-centered local planning map.
+- The decision model is based on the PPO algorithm.
